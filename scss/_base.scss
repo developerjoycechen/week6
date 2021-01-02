@@ -1,0 +1,19 @@
+body{
+	font-family: $font-family-base;
+}
+h2, h3, h4, h5, h6 {
+	line-height: 1.2;
+}
+img{
+	display:block;
+	max-width:100%;
+	height:auto;
+}
+a{
+    display: block;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none;
+}
+

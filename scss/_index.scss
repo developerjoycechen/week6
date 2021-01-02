@@ -1,0 +1,17 @@
+// start header
+.bg-header{
+  background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index1.jpg");
+  @include bg-center;
+}
+// end header
+
+// start subscribe
+.bg-subscribe{
+  background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index10.jpg");
+  @include bg-center;
+  .form-control{
+    width: auto;
+    color: $third;
+  }
+}
+// end subscribe

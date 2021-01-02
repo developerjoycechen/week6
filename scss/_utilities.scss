@@ -1,0 +1,57 @@
+// font-size
+.h2{
+    font-size: $font-h2;
+    /* font-size: 40px; */
+}
+.h3{
+    font-size: $font-h3;
+    /* font-size: 32px; */
+}
+.h4{
+    font-size: $font-h4;
+    /* font-size: 28px; */
+}
+.h5{
+    font-size: $font-h5;
+    /* font-size: 24px; */
+}
+.h6{
+    font-size: $font-h6;
+    /* font-size: 20px; */
+}
+.p1{
+    font-size: $font-p1;
+    /* font-size: 16px; */
+}
+.p2{
+    font-size: $font-p2;
+    /* font-size: 14px; */
+}
+
+// space
+.pb-lg-9{
+    padding-bottom: $space-base*10;
+}
+.py-lg-9{
+    padding-top: $space-base*10;
+    padding-bottom: $space-base*10;
+}
+.pt-lg-10{
+    padding-top: $space-base*20;
+}
+.py-10{
+    @include tablet(){
+        padding-top: $space-base*7;
+        padding-bottom: $space-base*7;       
+    };
+}
+.py-lg-10{
+    padding-top: $space-base*20;
+    padding-bottom: $space-base*20;
+}
+
+// border
+.border-2x{
+    border-width: 2px;
+    border-style: solid;
+}
